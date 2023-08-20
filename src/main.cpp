@@ -106,13 +106,13 @@ int main() {
             int appearances;
             temp >> appearances;
 
-            cout << "\nYour password has been breached " << appearances << " times!\n\n";
+            cout << "Your password has been pwned " << appearances << " times!\n\n";
 
             main();
         }
     }
 
-    cout << "\nYour password hasn't been breached yet!\n\n";
+    cout << "Your password hasn't been pwned yet!\n\n";
     
     main();
 }
