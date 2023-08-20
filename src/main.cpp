@@ -5,7 +5,7 @@
 #include <cstring>
 
 #include <curl/curl.h>
-#include "../include/sha1/sha1.h"
+#include "sha1/sha1.h"
 
 using namespace std;
 

@@ -15,10 +15,10 @@
                 "-lcurl",
 
                 // include
-                "-I", "./include",
+                "-I", "${workspaceFolder}/include",
 
                 "-o",
-                "main.out"
+                "${fileDirname}/main.out"
             ],
             "options": {
                 "cwd": "${fileDirname}"

@@ -2,8 +2,8 @@
 #include <cassert>
 #include <iostream>
 
-#include "../include/sha1/sha1.h"
-#include "../include/sha1/sha1_loc.h"
+#include "sha1/sha1.h"
+#include "sha1/sha1_loc.h"
 
 namespace sha1 {
     sha1_t::sha1_t() {
